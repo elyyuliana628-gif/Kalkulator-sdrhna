@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dff4ff, #e8ddff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.calculator {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(40, 50, 100, 0.15);
+}
+
+h1 {
+    color: #3157d5;
+    font-size: 25px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 12px 0 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: 2px solid #5478ef;
+}
+
+h3 {
+    color: #3157d5;
+    margin-top: 25px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+button {
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #3157d5;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #203fae;
+}
+
+.hasil {
+    background: #eef2ff;
+    padding: 18px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.hasil p {
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hasil h2 {
+    color: #3157d5;
+    font-size: 32px;
+    overflow-wrap: anywhere;
+}
+
+.hasil span {
+    color: gray;
+    font-size: 12px;
+}
+
+.reset {
+    background: #7c3aed;
+    margin-top: 18px;
+    width: 100%;
+}
