@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Modern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>✦ Kalkulator Modern</h1>
+        <p class="subtitle">Hitung dengan mudah dan cepat</p>
+
+        <label>Angka A</label>
+        <input type="number" id="angkaA"
+               placeholder="Masukkan angka pertama">
+
+        <label>Angka B</label>
+        <input type="number" id="angkaB"
+               placeholder="Masukkan angka kedua">
+
+        <h3>Pilih Operasi</h3>
+
+        <div class="buttons">
+            <button onclick="hitung('+')">+ Tambah</button>
+            <button onclick="hitung('-')">− Kurang</button>
+            <button onclick="hitung('*')">× Kali</button>
+            <button onclick="hitung('/')">÷ Bagi</button>
+        </div>
+
+        <div class="hasil">
+            <p>HASIL PERHITUNGAN</p>
+            <h2 id="hasil">0</h2>
+            <span id="keterangan">
+                Masukkan angka terlebih dahulu
+            </span>
+        </div>
+
+        <button class="reset" onclick="resetKalkulator()">
+            ↻ Reset
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
